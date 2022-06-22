@@ -15,7 +15,7 @@
     width: 45%;
     height: 90%;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 15px;
     position: absolute;
     top: 10%;
     left: 5%;
@@ -27,15 +27,15 @@
     font-size: 1.3rem;
     padding: 3px;
     background-color:#ffaa8be8 ;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 
 .hero-sarina p:nth-child(2) {
     text-align: center;
     padding: 5px;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     margin-bottom: 40%;
 }
 
