@@ -1,0 +1,71 @@
+
+
+:root {
+    --text-blue-gray: #00304B;
+    --text-blue-lightgray: #003349;
+}
+
+
+
+
+body {
+    background-repeat: no-repeat;
+    position: relative;
+    font-size: 1.6rem;
+
+}
+
+
+body.day {
+    
+    color: var(--text-blue-gray);
+    background-image: linear-gradient(
+        0deg,
+        hsl(199deg 100% 11%) 0%,
+        hsl(198deg 98% 14%) 18%,
+        hsl(190deg 75% 36%) 32%,
+        hsl(182deg 66% 63%) 46%,
+        hsl(145deg 64% 80%) 62%,
+        hsl(359deg 100% 87%) 100%
+      );
+}
+
+body.night {
+    color: var(--text-blue-lightgray);
+    
+    background-image: linear-gradient(
+        0deg,
+        hsl(198deg 97% 15%) 0%,
+        hsl(200deg 75% 22%) 8%,
+        hsl(202deg 61% 29%) 17%,
+        hsl(203deg 54% 37%) 25%,
+        hsl(205deg 48% 45%) 34%,
+        hsl(206deg 49% 53%) 42%,
+        hsl(208deg 64% 61%) 51%,
+        hsl(210deg 70% 59%) 59%,
+        hsl(214deg 73% 58%) 67%,
+        hsl(219deg 74% 58%) 76%,
+        hsl(228deg 70% 60%) 84%,
+        hsl(242deg 64% 61%) 92%,
+        hsl(259deg 61% 55%) 100%
+      );
+}
+
+
+
+
+.grid-background {
+
+   
+    background-size: 20px 20px;
+        background-image:
+          linear-gradient(to right, #ffd5d4 2px, transparent 1px),
+          linear-gradient(to bottom, #ffd5d4 2px, transparent 1px);
+          width: 100vw;
+          height: 100%;
+          position: absolute;
+          top:-40px;
+          opacity: 0.4;
+          z-index: -1;
+
+}

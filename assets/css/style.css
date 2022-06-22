@@ -1,0 +1,38 @@
+@import url("background.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("artworks.css");
+@import url("footer.css");
+
+@font-face {
+    font-family:OhWhale;
+    src: url(../fonts/OhWhale.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family:SeaHorses;
+    src: url(../fonts/SeaHorses.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+    font-family: ohWhale;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+.header-mother {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+.header-mother .header-text {
+    text-align: center;
+    flex-grow: 2;
+    order: 2;
+}
+
+.header-mother .header-text p:first-child {
+    font-family: SeaHorses;
+    font-size: 2.2rem;
+}
+
+.header-mother .header-text p:last-child {
+
+    font-size: 1.3rem;
+}
+
+.header-mother .toggler {
+    width: 11%;
+    order: 3;
+    margin-right: 10px;
+}
+
+.header-mother .toggler img {
+    width: 100%;
+}
+
+.header-fix {
+    width: 11%;
+    order:1;
+}
