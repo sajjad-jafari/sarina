@@ -1,6 +1,29 @@
 
-
+ .footer-background {
+    position: relative;
+}
 
 footer .footer-background img {
     width: 100%;
+}
+
+.school {
+    position: absolute;
+    max-width: 25%;
+    /* height: 40px; */
+    top: 30%;
+    left: 8%;
+    
+}
+
+.octopus {
+    position: absolute;
+    width: 30px;
+    max-width: 25%;
+
+
+
+    
+    right: 7%;
+
 }

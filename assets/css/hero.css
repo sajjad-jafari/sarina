@@ -9,6 +9,7 @@
 
 .lantern {
     width: 100%;
+    /* margin-right: 30px; */
 }
 
 .hero-sarina {
@@ -57,7 +58,7 @@
     position: absolute;
     width: 30%;
    
-    top: -5%;
+    top: -15%;
     left: 52%;
  
 }
