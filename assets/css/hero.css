@@ -1,6 +1,6 @@
 .hero-mother {
     /* background-color: aqua; */
-    margin-top: 10px;
+    margin-top: 30px;
 
     position: relative;
     
@@ -12,33 +12,40 @@
 }
 
 .hero-sarina {
+    width: 45%;
+    height: 90%;
     border: 2px solid black;
+    border-radius: 20px;
     position: absolute;
     top: 10%;
     left: 5%;
 }
 
 .hero-sarina p:first-child {
+    font-family: SeaHorses;
     border-bottom: 1px solid black;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 3px;
     background-color:#ffaa8be8 ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 
 .hero-sarina p:nth-child(2) {
     text-align: center;
     padding: 5px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 40%;
 }
 
 .sarina-img {
-    width: 50%;
+    width: 60%;
+    height: 60%;
     position: absolute;
     border: 2px solid black;
-    bottom: -40px;
-    right: -60px;
+    bottom: -30px;
+    right: -30px;
 }
 .sarina-img img {
     width: 100%;
@@ -48,24 +55,21 @@
 
 .weather {
     position: absolute;
-    width: 20%;
-    border: 2px solid black;
+    width: 25%;
+   
     top: -5%;
     left: 60%;
+ 
 }
-.weather p {
-    
-    text-align: end;
-    padding: 1px;
-    
 
-    border-bottom: 2px solid black;
-
-}
 
 .weather img {
+    
     width: 100%;
-    padding: 5px;
+    
+    
+   
 }
 
 
+ 
