@@ -2,6 +2,7 @@
 .latest-work-body {
     width: 85%;
     margin: 30px auto;
+    position: relative;
   
 }
 
@@ -16,4 +17,48 @@
 
 .artwork-mother h3 {
     margin-top: 70px;
+    
+}
+
+
+.monster {
+    position: absolute;
+    width: 15%;
+    bottom: -10%;
+    right: 10%;
+}
+
+.artwork-mother {
+    
+    background-image: url(../img/bubbles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-size: contain;
+
+}
+
+.jellyfish {
+    position: absolute;
+    width: 8%;
+    top: -10%;
+    left: 0;
+}
+.shell {
+    position: absolute;
+    width: 6%;
+    bottom: 20%;
+    left: -3%;
+   
+}
+.starfish {
+    position: absolute;
+    width: 6%;
+    top: -10%;
+    right: 20%;
+   
+}
+
+.jellyfish,.shell, .starfish, .monster {
+    z-index: -1;
 }

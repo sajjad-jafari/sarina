@@ -1,6 +1,18 @@
+
+.skillset-mother {
+    background-image: url(../img/bubbles.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    background-size: contain;
+}
+
+
 .skills {
     width: 90%;
     margin: 20px auto;
+
+    
 }
 
 .skills img {
@@ -9,6 +21,3 @@
 
 
 
-.skillset-mother  h3 {
-    margin-top: ;
-}
