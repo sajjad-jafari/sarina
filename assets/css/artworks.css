@@ -1,17 +1,19 @@
 
-.artwork-mother h3 {
-    margin-top: 70px;
-    font-family: SeaHorses;
-    font-size: 2.5rem;
-    text-align: center;
-
-
-}
 .latest-work-body {
-    width: 60%;
+    width: 80%;
     margin: 30px auto;
+  
 }
 
 .folders {
     width: 100%;
+    
+}
+
+
+
+
+
+.artwork-mother h3 {
+    margin-top: 70px;
 }
