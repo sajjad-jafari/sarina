@@ -4,6 +4,7 @@
 }
 footer {
     margin-top: 80px;
+    position: relative;
 }
 
 footer .footer-background img {
@@ -22,11 +23,29 @@ footer .footer-background img {
 .octopus {
     position: absolute;
     max-width: 45%;
-
-
-
-    
     right: 7%;
     top: -20%
 
+}
+
+.social {
+    position: absolute;
+   
+
+    right: -8%;
+    bottom: 15%;
+}
+
+.social a  {
+   
+    /* width: 10%; */
+    line-height: 0;
+    display: inline;
+}
+
+
+.social img {
+    width: 20%;
+    margin-left: 10px ;
+   
 }
