@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
@@ -19,10 +19,11 @@
 
 .header-mother .header-text p:first-child {
     font-family: SeaHorses;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 .header-mother .header-text p:last-child {
+    margin-top: 5px;
 
     font-size: 1.3rem;
 }
