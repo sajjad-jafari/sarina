@@ -2,6 +2,9 @@
  .footer-background {
     position: relative;
 }
+footer {
+    margin-top: 80px;
+}
 
 footer .footer-background img {
     width: 100%;
